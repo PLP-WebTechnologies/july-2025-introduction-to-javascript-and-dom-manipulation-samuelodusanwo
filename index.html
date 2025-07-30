@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Fundamentals Assignment</title>
+    <meta name="description" content="A web page demonstrating JavaScript basics, functions, loops, and DOM manipulation for a beginner assignment.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>JavaScript Fundamentals Showcase</h1>
+        <p>Exploring variables, functions, loops, and DOM manipulation.</p>
+    </header>
+
+    <main>
+        <section id="part1">
+            <h2>Part 1: JavaScript Basics - Conditionals & Input</h2>
+            <div class="card">
+                <h3>Check Your Age</h3>
+                <label for="ageInput">Enter your age:</label>
+                <input type="number" id="ageInput" placeholder="e.g., 25">
+                <button id="checkAgeBtn">Check Age</button>
+                <p id="ageResult"></p>
+            </div>
+        </section>
+
+        <section id="part2">
+            <h2>Part 2: JavaScript Functions - Reusability</h2>
+            <div class="card">
+                <h3>Calculate Area</h3>
+                <label for="lengthInput">Length (cm):</label>
+                <input type="number" id="lengthInput" value="10">
+                <label for="widthInput">Width (cm):</label>
+                <input type="number" id="widthInput" value="5">
+                <button id="calculateAreaBtn">Calculate Area</button>
+                <p id="areaResult"></p>
+            </div>
+
+            <div class="card">
+                <h3>Toggle Content Visibility</h3>
+                <button id="toggleContentBtn">Toggle My Secret Message</button>
+                <p id="secretMessage" class="hidden">
+                    This is a secret message! It appears and disappears with the click of a button, thanks to a JavaScript function.
+                </p>
+            </div>
+        </section>
+
+        <section id="part3">
+            <h2>Part 3: JavaScript Loops - Repetition</h2>
+            <div class="card">
+                <h3>Fruit List (for...of loop)</h3>
+                <ul id="fruitList">
+                    </ul>
+            </div>
+
+            <div class="card">
+                <h3>Countdown (While Loop)</h3>
+                <p>Countdown from 5: <span id="countdownDisplay"></span></p>
+                <button id="startCountdownBtn">Start Countdown</button>
+            </div>
+        </section>
+
+        <section id="part4">
+            <h2>Part 4: Mastering the DOM - Interactivity</h2>
+            <div class="card">
+                <h3>Change Page Background</h3>
+                <button id="changeBgBtn">Change Background Color</button>
+                <button id="resetBgBtn">Reset Background Color</button>
+            </div>
+
+            <div class="card">
+                <h3>Interactive Box</h3>
+                <div id="interactiveBox">Click or Hover Me!</div>
+            </div>
+
+            <div class="card">
+                <h3>Add New List Item</h3>
+                <input type="text" id="newItemInput" placeholder="e.g., New Task">
+                <button id="addItemBtn">Add to List</button>
+                <ul id="dynamicList">
+                    <li>Existing Item 1</li>
+                    <li>Existing Item 2</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Your Name. All Rights Reserved. JavaScript Assignment.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
